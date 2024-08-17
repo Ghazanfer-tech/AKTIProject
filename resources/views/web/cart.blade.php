@@ -25,17 +25,17 @@
 @endif
 
 <!-- Cart Page Start -->
-@php $sub_total = 0 @endphp 
+@php $sub_total = 0 @endphp
 
 @foreach((array) session('cart') as $id => $details)
-    @php    
+    @php
         $sub_total += $details['price'] * $details['quantity'];
      @endphp
 @endforeach
 <div class="container-fluid py-5">
     <div class="container py-5">
         <div class="table-responsive">
-            <table class="table">  "{{route('web-update-cart')}}"
+            <table class="table">
                 <thead>
                     <tr>
                         <th scope="col">Products</th>

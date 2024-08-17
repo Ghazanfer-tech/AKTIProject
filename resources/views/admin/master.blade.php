@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DASHMIN - Bootstrap Admin Template</title>
+    <title>DASHMIN - </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -26,7 +26,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{asset('/dashmin/css/bootstrap.min.css')}}" rel="stylesheet">
-    
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -58,22 +58,22 @@
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
                     <div class="position-relative">
-                        <img class="rounded-circle" src="{{asset('/dashmin/img/user.jpg')}}" alt=""
-                            style="width: 40px; height: 40px;">
+                        {{-- <img class="rounded-circle" src="{{asset('/dashmin/img/user.jpg')}}" alt="" --}}
+                            {{-- style="width: 40px; height: 40px;"> --}}
                         <div
-                            class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1">
+                            class="bg-success rounded-circle bor    der border-2 border-white position-absolute end-0 bottom-0 p-1">
                         </div>
                     </div>
                     <div class="ms-3">
-                        <h6 class="mb-0">Jhon Doe</h6>
+                        <h6 class="mb-0">ghazanfer</h6>
                         <span>Admin</span>
                     </div>
                 </div>
-                <div class="navbar-nav w-100">
-                    <a href="index.html" class="nav-item nav-link active"><i
-                            class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
+                {{-- <div class="navbar-nav w-100"> --}}
+                    {{-- <a href="index.html" class="nav-item nav-link active"><i --}}
+                            {{-- class="fa fa-tachometer-alt me-2"></i>Dashboard</a>? --}}
 
-                    <div class="ms-5 mt-3 font-bold"><a style="text-decoration: none ;" href="{{route('admin-products-index')}}">Products</a></div>
+                    {{-- <div class="ms-5 mt-3 font-bold"><a style="text-decoration: none ;" href="{{route('admin-products-index')}}">Products</a></div> --}}
 
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
@@ -86,29 +86,29 @@
                                 </div>
                                 <div class="ms-2">
                                     <!-- <i class="fa fa-laptop "></i> -->
-                                    Products
+                                    {{-- Products --}}
                                 </div>
 
                             </div>
                         </a>
-                        <div class="dropdown-menu bg-transparent border-0">
-                            <a href="button.html" class="dropdown-item">Buttons</a>
-                            <a href="typography.html" class="dropdown-item">Typography</a>
-                            <a href="element.html" class="dropdown-item">Other Elements</a>
+                        {{-- <div class="dropdown-menu bg-transparent border-0"> --}}
+                            {{-- <a href="button.html" class="dropdown-item">Buttons</a> --}}
+                            {{-- <a href="typography.html" class="dropdown-item">Typography</a> --}}
+                            {{-- <a href="element.html" class="dropdown-item">Other Elements</a> --}}
                         </div>
                     </div>
-                    <a href="widget.html" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
-                    <a href="form.html" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
-                    <a href="table.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
-                    <a href="chart.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i
-                                class="far fa-file-alt me-2"></i>Pages</a>
-                        <div class="dropdown-menu bg-transparent border-0">
-                            <a href="signin.html" class="dropdown-item">Sign In</a>
-                            <a href="signup.html" class="dropdown-item">Sign Up</a>
-                            <a href="404.html" class="dropdown-item">404 Error</a>
-                            <a href="blank.html" class="dropdown-item">Blank Page</a>
+                    {{-- <a href="widget.html" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a> --}}
+                    {{-- <a href="form.html" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a> --}}
+                    {{-- <a href="table.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a> --}}
+                    {{-- <a href="chart.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a> --}}
+                    {{-- <div class="nav-item dropdown"> --}}
+                        {{-- <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i --}}
+                                {{-- class="far fa-file-alt me-2"></i>Pages</a> --}}
+                        {{-- <div class="dropdown-menu bg-transparent border-0"> --}}
+                            {{-- <a href="signin.html" class="dropdown-item">Sign In</a> --}}
+                            {{-- <a href="signup.html" class="dropdown-item">Sign Up</a> --}}
+                            {{-- <a href="404.html" class="dropdown-item">404 Error</a> --}}
+                            {{-- <a href="blank.html" class="dropdown-item">Blank Page</a> --}}
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
                             <a href="#" class="dropdown-item">
                                 <div class="d-flex align-items-center">
-                                    <img class="rounded-circle" src="{{asset('/dashmin/img/user.jpg')}}" alt=""
+                                    {{-- <img class="rounded-circle" src="{{asset('/dashmin/img/user.jpg')}}" alt="" --}}
                                         style="width: 40px; height: 40px;">
                                     <div class="ms-2">
                                         <h6 class="fw-normal mb-0">Jhon send you a message</h6>
@@ -150,7 +150,7 @@
                             <hr class="dropdown-divider">
                             <a href="#" class="dropdown-item">
                                 <div class="d-flex align-items-center">
-                                    <img class="rounded-circle" src="{{asset('/dashmin/img/user.jpg')}}" alt=""
+                                    {{-- <img class="rounded-circle" src="{{asset('/dashmin/img/user.jpg')}}" alt="" --}}
                                         style="width: 40px; height: 40px;">
                                     <div class="ms-2">
                                         <h6 class="fw-normal mb-0">Jhon send you a message</h6>
@@ -161,7 +161,7 @@
                             <hr class="dropdown-divider">
                             <a href="#" class="dropdown-item">
                                 <div class="d-flex align-items-center">
-                                    <img class="rounded-circle" src="{{asset('/dashmin/img/user.jpg')}}" alt=""
+                                    {{-- <img class="rounded-circle" src="{{asset('/dashmin/img/user.jpg')}}" alt="" --}}
                                         style="width: 40px; height: 40px;">
                                     <div class="ms-2">
                                         <h6 class="fw-normal mb-0">Jhon send you a message</h6>
@@ -197,20 +197,20 @@
                             <a href="#" class="dropdown-item text-center">See all notifications</a>
                         </div>
                     </div> -->
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <img class="rounded-circle me-lg-2" src="{{asset('/dashmin/img/user.jpg')}}" alt=""
-                                style="width: 40px; height: 40px;">
-                            <span class="d-none d-lg-inline-flex">John Doe</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                            <a href="#" class="dropdown-item">My Profile</a>
-                            <a href="#" class="dropdown-item">Settings</a>
-                            <a href="#" class="dropdown-item">Log Out</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+                    {{-- <div class="nav-item dropdown"> --}}
+                        {{-- <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> --}}
+                            {{-- <img class="rounded-circle me-lg-2" src="{{asset('/dashmin/img/user.jpg')}}" alt="" --}}
+                                {{-- style="width: 40px; height: 40px;"> --}}
+                            {{-- <span class="d-none d-lg-inline-flex">John Doe</span> --}}
+                        {{-- </a> --}}
+                        {{-- <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0"> --}}
+                            {{-- <a href="#" class="dropdown-item">My Profile</a> --}}
+                            {{-- <a href="#" class="dropdown-item">Settings</a> --}}
+                            {{-- <a href="#" class="dropdown-item">Log Out</a> --}}
+                        {{-- </div> --}}
+                    {{-- </div> --}}
+                {{-- </div> --}}
+            {{-- </nav>/ --}}
             <!-- Navbar End -->
 
             @yield('content')
@@ -369,7 +369,7 @@
                                 <a href="">Show All</a>
                             </div>
                             <div class="d-flex align-items-center border-bottom py-3">
-                                <img class="rounded-circle flex-shrink-0" src="{{asset('/dashmin/img/user.jpg')}}" alt=""
+                                {{-- <img class="rounded-circle flex-shrink-0" src="{{asset('/dashmin/img/user.jpg')}}" alt="" --}}
                                     style="width: 40px; height: 40px;">
                                 <div class="w-100 ms-3">
                                     <div class="d-flex w-100 justify-content-between">
@@ -380,7 +380,7 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-center border-bottom py-3">
-                                <img class="rounded-circle flex-shrink-0" src="{{asset('/dashmin/img/user.jpg')}}" alt=""
+                                {{-- <img class="rounded-circle flex-shrink-0" src="{{asset('/dashmin/img/user.jpg')}}" alt="" --}}
                                     style="width: 40px; height: 40px;">
                                 <div class="w-100 ms-3">
                                     <div class="d-flex w-100 justify-content-between">
@@ -391,7 +391,7 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-center border-bottom py-3">
-                                <img class="rounded-circle flex-shrink-0" src="{{asset('/dashmin/img/user.jpg')}}" alt=""
+                                {{-- <img class="rounded-circle flex-shrink-0" src="{{asset('/dashmin/img/user.jpg')}}" alt="" --}}
                                     style="width: 40px; height: 40px;">
                                 <div class="w-100 ms-3">
                                     <div class="d-flex w-100 justify-content-between">
@@ -402,7 +402,7 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-center pt-3">
-                                <img class="rounded-circle flex-shrink-0" src="{{asset('/dashmin/img/user.jpg')}}" alt=""
+                                {{-- <img class="rounded-circle flex-shrink-0" src="{{asset('/dashmin/img/user.jpg')}}" alt="" --}}
                                     style="width: 40px; height: 40px;">
                                 <div class="w-100 ms-3">
                                     <div class="d-flex w-100 justify-content-between">
