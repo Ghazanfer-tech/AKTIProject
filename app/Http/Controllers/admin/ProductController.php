@@ -4,6 +4,7 @@ namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Product;
+use App\Models\Order;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 
@@ -15,6 +16,12 @@ class ProductController extends Controller
         // $products = Product::orderByDesc('created_at')->get();
         $products = Product::all();
         return view('admin.products_list', ['products' => $products]);
+    }
+
+    function orders()
+    {
+        $orders = Order::all();
+        return view('admin.orders_list', ['orders' => $orders]);
     }
 
     function create()
@@ -39,7 +46,7 @@ class ProductController extends Controller
             // save image to products directory
             $image->move(public_path('/uploads/products'), $imageName);
 
-            // save image in the database 
+            // save image in the database
             $product->image = $imageName;
             $product->save();
         }
@@ -86,7 +93,7 @@ class ProductController extends Controller
             $ext = $image->getClientOriginalExtension();
             $imageName = time() . '.' . $ext; // unique Image Name
 
-            //save image to the public directory 
+            //save image to the public directory
             $image->move(public_path('uploads/products/'), $imageName);
             $product->image = $imageName;
             $product->save();

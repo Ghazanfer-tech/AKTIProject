@@ -20,8 +20,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="{{asset('/fruitables/lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
-    <link href="{{asset('/fruitables/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('/fruitables/lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('/fruitables/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
 
     <!-- ToasterJS -->
     <!-- <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" /> -->
@@ -29,10 +29,10 @@
     <!-- <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" /> -->
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{asset('fruitables/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('fruitables/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{asset('/fruitables/css/style.css')}}" rel="stylesheet">
+    <link href="{{ asset('/fruitables/css/style.css') }}" rel="stylesheet">
 
     <!-- Sweetalert CDN -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -71,16 +71,16 @@
                 </button>
                 <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                     <div class="navbar-nav mx-auto">
-                        <a href="{{route('web-home')}}" class="nav-item nav-link active">Home</a>
-                        <a href="{{route('web-shop')}}" class="nav-item nav-link">Shop</a>
+                        <a href="{{ route('web-home') }}" class="nav-item nav-link active">Home</a>
+                        <a href="{{ route('web-shop') }}" class="nav-item nav-link">Shop</a>
                         <!-- <a href="shop-detail.html" class="nav-item nav-link">Shop Detail</a> -->
-                        <a href="{{route('web-cart')}}" class="nav-item nav-link">Cart</a>
-                        <a href= "{{route('web-checkout')}}" class="nav-item nav-link">Checkout</a>
+                        <a href="{{ route('web-cart') }}" class="nav-item nav-link">Cart</a>
+                        <a href= "{{ route('web-checkout') }}" class="nav-item nav-link">Checkout</a>
                         <!-- <a href="shop-detail.html" class="nav-item nav-link">Shop Detail</a> -->
                         <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">cart</a>
                             <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                <a href="{{route('web-cart')}}" class="dropdown-item">Cart</a>
+                                <a href="{{ route('web-cart') }}" class="dropdown-item">Cart</a>
                                 <a href="chackout.html" class="dropdown-item">Cheackout</a>
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                 <a href="404.html" class="dropdown-item">404 Page</a>
@@ -93,7 +93,7 @@
                             class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4"
                             data-bs-toggle="modal" data-bs-target="#searchModal"><i
                                 class="fas fa-search text-primary"></i></button> -->
-                        <a href="{{route('web-cart')}}" class="position-relative me-4 my-auto">
+                        <a href="{{ route('web-cart') }}" class="position-relative me-4 my-auto">
                             <i class="fa fa-shopping-bag fa-2x"></i>
                             <span
                                 class="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1"
@@ -174,7 +174,7 @@
                         <p>Email: Example@gmail.com</p>
                         <p>Phone: +0123 4567 8910</p>
                         <!-- <p>Payment Accepted</p> -->
-                        <!-- <img src="{{asset('/fruitables/img/payment.png')}}" class="img-fluid" alt=""> -->
+                        <!-- <img src="{{ asset('/fruitables/img/payment.png') }}" class="img-fluid" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -186,13 +186,13 @@
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{asset('/fruitables/lib/easing/easing.min.js')}}"></script>
-    <script src="{{asset('/fruitables/lib/waypoints/waypoints.min.js')}}"></script>
-    <script src="{{asset('/fruitables/lib/lightbox/js/lightbox.min.js')}}"></script>
-    <script src="{{asset('/fruitables/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ asset('/fruitables/lib/easing/easing.min.js') }}"></script>
+    <script src="{{ asset('/fruitables/lib/waypoints/waypoints.min.js') }}"></script>
+    <script src="{{ asset('/fruitables/lib/lightbox/js/lightbox.min.js') }}"></script>
+    <script src="{{ asset('/fruitables/lib/owlcarousel/owl.carousel.min.js') }}"></script>
 
     <!-- Template Javascript -->
-    <script src="{{asset('/fruitables/js/main.js')}}"></script>
+    <script src="{{ asset('/fruitables/js/main.js') }}"></script>
 
     <!-- Toaster JS -->
     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>

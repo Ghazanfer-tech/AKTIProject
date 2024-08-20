@@ -2,7 +2,7 @@
 @section('content')
 
 
-<div class="container">
+<div class="container" >
     <div class="row d-flex justify-content-center ">
         <div class="col-md-10 d-flex justify-content-end">
             <a href="{{route('admin-products-create')}}" class="btn  my-2"
@@ -15,7 +15,7 @@
             </div>
         @endif
 
-        <div class="col-md-12">
+        <div class="col-md-12" >
             <div class="card border-0 shadow-lg">
                 <div class="card-header " style="background-color: #0D6EFD;color: white;">
                     <h3 class="text-white">Products</h3>

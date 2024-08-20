@@ -40,7 +40,8 @@ class WebController extends Controller
     public function addToCart($id)
     {
         $product = Product::findOrFail($id);
-        //
+
+        // get cart data from session-variables
         $cart = session()->get('cart');
         if (isset($cart[$id])) {
             $cart[$id]['quantity']++;

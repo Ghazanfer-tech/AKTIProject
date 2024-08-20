@@ -38,16 +38,18 @@ Route::get('/web/checkout', [WebController::class, 'checkout'])->name('web-check
 
 // admin Routes
 Route::get('/admin/home', [AdminController::class, 'index'])->name('admin-home');
+Route::delete('/admin/orders/{id}', [AdminController::class, 'destroyOrder'])->name('admin-order-destroy');
 
 // product Routes
 Route::get('/admin/products', [ProductController::class, 'index'])->name('admin-products-index');
+Route::get('/admin/orders', [ProductController::class, 'orders'])->name('admin-orders-index');
 Route::get("/admin/products/create", [ProductController::class, 'create'])->name("admin-products-create");
 Route::post("/admin/products", [ProductController::class, 'store'])->name("admin-products-store");
 Route::delete("/admin/products/{product}", [ProductController::class, 'destroy'])->name("admin-products-destroy");
 
 Route::get('/admin/products/{product}/edit', [ProductController::class, 'edit'])->name('admin-products-edit');
 Route::put('/admin/products/{product}', [ProductController::class, 'update'])->name('admin-products-update');
- Route::post('web/placeorder',[WebController::class,'placeorder'])->name('web-placeorder');                                                
+Route::post('web/placeorder', [WebController::class, 'placeorder'])->name('web-placeorder');
 
 
 
