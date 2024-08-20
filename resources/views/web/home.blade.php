@@ -21,12 +21,12 @@
                             <div class="carousel-item active rounded">
                                 <img src="{{ asset('/fruitables/img/hero-img-1.png') }}"
                                     class="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide">
-                                <a href="#" class="btn px-4 py-2 text-white rounded">Fruites</a>
+                                <a href="#" class="btn px-4 py-2 text-white rounded">Fruits</a>
                             </div>
                             <div class="carousel-item rounded">
                                 <img src=" {{ asset('/fruitables/img/hero-img-2.jpg') }}"
                                     class="img-fluid w-100 h-100 rounded" alt="Second slide">
-                                <a href="#" class="btn px-4 py-2 text-white rounded">Vesitables</a>
+                                <a href="#" class="btn px-4 py-2 text-white rounded">Vegitables</a>
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
@@ -159,10 +159,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -181,10 +181,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -203,10 +203,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -225,10 +225,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -247,10 +247,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -269,10 +269,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -291,10 +291,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -313,10 +313,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -343,10 +343,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -365,10 +365,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -395,10 +395,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -417,10 +417,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -447,10 +447,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -469,10 +469,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -499,10 +499,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -521,10 +521,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -543,10 +543,10 @@
                                                     eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                    <a href="#"
-                                                        class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                                            class="fa fa-shopping-bag me-2 text-primary"></i> Add to
-                                                        cart</a>
+                                                    {{-- <a href="#" --}}
+                                                        {{-- class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                                            {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to --}}
+                                                        {{-- cart</a> --}}
                                                 </div>
                                             </div>
                                         </div>
@@ -632,9 +632,9 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i>
-                                Add to cart
+                            {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                    {{-- class="fa fa-shopping-bag me-2 text-primary"></i> --}}
+                                {{-- Add to cart --}}
                             </a>
                         </div>
                     </div>
@@ -656,9 +656,9 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i>
-                                Add to cart
+                            {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                    {{-- class="fa fa-shopping-bag me-2 text-primary"></i> --}}
+                                {{-- Add to cart --}}
                             </a>
                         </div>
                     </div>
@@ -694,8 +694,8 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                    {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                         </div>
                     </div>
                 </div>
@@ -712,8 +712,8 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                    {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                         </div>
                     </div>
                 </div>
@@ -730,8 +730,8 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                    {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                         </div>
                     </div>
                 </div>
@@ -748,8 +748,8 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                    {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                         </div>
                     </div>
                 </div>
@@ -766,8 +766,8 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                         <div class="d-flex justify-content-between flex-lg-wrap">
                             <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                    {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                         </div>
                     </div>
                 </div>
@@ -787,8 +787,8 @@
                         <p class="fw-normal display-3 text-dark mb-4">in Our Store</p>
                         <p class="mb-4 text-dark">The generated Lorem Ipsum is therefore always free from repetition
                             injected humour, or non-characteristic words etc.</p>
-                        <a href="#"
-                            class="banner-btn btn border-2 border-white rounded-pill text-dark py-3 px-5">BUY</a>
+                        {{-- <a href="#" --}}
+                            {{-- class="banner-btn btn border-2 border-white rounded-pill text-dark py-3 px-5">BUY</a> --}}
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -836,9 +836,9 @@
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star"></i>
                                 </div>
-                                <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                        class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                {{-- <h4 class="mb-3">3.12 $</h4> --}}
+                                {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                        {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                             </div>
                         </div>
                     </div>
@@ -860,8 +860,8 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                                 <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                        class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                        {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                             </div>
                         </div>
                     </div>
@@ -883,8 +883,8 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                                 <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                        class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                        {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                             </div>
                         </div>
                     </div>
@@ -906,8 +906,8 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                                 <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                        class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                        {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                             </div>
                         </div>
                     </div>
@@ -929,8 +929,8 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                                 <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                        class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                        {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                             </div>
                         </div>
                     </div>
@@ -952,8 +952,8 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                                 <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                        class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                        {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                             </div>
                         </div>
                     </div>
@@ -972,8 +972,8 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <h4 class="mb-3">3.12 $</h4>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                    {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                         </div>
                     </div>
                 </div>
@@ -991,8 +991,8 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <h4 class="mb-3">3.12 $</h4>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                    {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                         </div>
                     </div>
                 </div>
@@ -1010,8 +1010,8 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <h4 class="mb-3">3.12 $</h4>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                    {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                         </div>
                     </div>
                 </div>
@@ -1029,8 +1029,8 @@
                                 <i class="fas fa-star"></i>
                             </div>
                             <h4 class="mb-3">3.12 $</h4>
-                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i
-                                    class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                            {{-- <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i --}}
+                                    {{-- class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a> --}}
                         </div>
                     </div>
                 </div>

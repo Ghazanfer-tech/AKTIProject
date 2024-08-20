@@ -87,40 +87,40 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="mb-3">
-                                    <h4 class="mb-2">Price</h4>
-                                    <inp/ut type="range" class="form-range w-100" id="rangeInput" name="rangeInput"
-                                        min="0" max="500" value="0" oninput="amount.value=rangeInput.value">
-                                    <output id="amount" name="amount" min-velue="0" max-value="500"
-                                        for="rangeInput">0</output>
+                                    {{-- <h4 class="mb-2">Price</h4> --}}
+                                    {{-- <inp/ut type="range" class="form-range w-100" id="rangeInput" name="rangeInput" --}}
+                                        {{-- min="0" max="500" value="0" oninput="amount.value=rangeInput.value"> --}}
+                                    {{-- <output id="amount" name="amount" min-velue="0" max-value="500" --}}
+                                        {{-- for="rangeInput">0</output> --}}
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="mb-3">
-                                    <h4>Additional</h4>
+                                    {{-- <h4>Additional</h4> --}}
                                     <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-1" name="Categories-1"
-                                            value="Beverages">
-                                        <label for="Categories-1"> Organic</label>
+                                        {{-- <input type="radio" class="me-2" id="Categories-1" name="Categories-1" --}}
+                                            {{-- value="Beverages"> --}}
+                                        {{-- <label for="Categories-1"> Organic</label> --}}
                                     </div>
                                     <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-2" name="Categories-1"
-                                            value="Beverages">
-                                        <label for="Categories-2"> Fresh</label>
+                                        {{-- <input type="radio" class="me-2" id="Categories-2" name="Categories-1" --}}
+                                            {{-- value="Beverages"> --}}
+                                        {{-- <label for="Categories-2"> Fresh</label> --}}
                                     </div>
                                     <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-3" name="Categories-1"
-                                            value="Beverages">
-                                        <label for="Categories-3"> Sales</label>
+                                        {{-- <input type="radio" class="me-2" id="Categories-3" name="Categories-1" --}}
+                                            {{-- value="Beverages"> --}}
+                                        {{-- <label for="Categories-3"> Sales</label> --}}
                                     </div>
                                     <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-4" name="Categories-1"
-                                            value="Beverages">
-                                        <label for="Categories-4"> Discount</label>
+                                        {{-- <input type="radio" class="me-2" id="Categories-4" name="Categories-1" --}}
+                                            {{-- value="Beverages"> --}}
+                                        {{-- <label for="Categories-4"> Discount</label> --}}
                                     </div>
                                     <div class="mb-2">
-                                        <input type="radio" class="me-2" id="Categories-5" name="Categories-1"
-                                            value="Beverages">
-                                        <label for="Categories-5"> Expired</label>
+                                        {{-- <input type="radio" class="me-2"/ id="Categories-5" name="Categories-1" --}}
+                                            {{-- value="Beverages"> --}}
+                                        {{-- <label for="Categories-5"> Expired</label> --}}
                                     </div>
                                 </div>
                             </div>
@@ -141,8 +141,8 @@
                                             <i class="fa fa-star"></i>
                                         </div>
                                         <div class="d-flex mb-2">
-                                            <h5 class="fw-bold me-2">2.99 $</h5>
-                                            <h5 class="text-danger text-decoration-line-through">4.11 $</h5>
+                                            {{-- <h5 class="fw-bold me-2">2.99 $</h5> --}}
+                                            {{-- <h5 class="text-danger text-decoration-line-through">4.11 $</h5> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -161,8 +161,8 @@
                                             <i class="fa fa-star"></i>
                                         </div>
                                         <div class="d-flex mb-2">
-                                            <h5 class="fw-bold me-2">2.99 $</h5>
-                                            <h5 class="text-danger text-decoration-line-through">4.11 $</h5>
+                                            {{-- <h5 class="fw-bold me-2">2.99 $</h5> --}}
+                                            {{-- <h5 class="text-danger text-decoration-line-through">4.11 $</h5> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -181,8 +181,8 @@
                                             <i class="fa fa-star"></i>
                                         </div>
                                         <div class="d-flex mb-2">
-                                            <h5 class="fw-bold me-2">2.99 $</h5>
-                                            <h5 class="text-danger text-decoration-line-through">4.11 $</h5>
+                                            {{-- <h5 class="fw-bold me-2">2.99 $</h5> --}}
+                                            {{-- <h5 class="text-danger text-decoration-line-through">4.11 $</h5> --}}
                                         </div>
                                     </div>
                                 </div>

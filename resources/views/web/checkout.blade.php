@@ -194,7 +194,7 @@
                             <th scope="row">
                             </th>
                             <td class="py-5">
-                                <p class="mb-0 text-dark py-4"> free Shipping</p>
+                                {{-- <p class="mb-0 text-dark py-4"> free Shipping</p> --}}
                             </td>
                             <!-- <td colspan="3" class="py-5">/ -->
                             <!-- <div class="form-check text-start"> -->

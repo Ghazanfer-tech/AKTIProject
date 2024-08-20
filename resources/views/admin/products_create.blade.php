@@ -7,7 +7,8 @@
                 <a href="{{ route('admin-products-index') }}" class="btn my-2"
                     style="background-color: #0D6EFD;color: white;">Back</a>
             </div>
-
+            
+                </div>
             <div class="col-md-10 border">
                 <div class="card border-0" style="background-color: #0D6EFD;color: white;">
                     <div class="card-header">
