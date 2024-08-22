@@ -103,6 +103,8 @@
                 <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
                     <h2 class="text-primary mb-0"><i class="fa fa-hashtag"></i></h2>
                 </a>
+                <a style="color: blue" class="btn border-secondary rounded-pill px-2 py-2 text-primary text-uppercase mb-2 ms-2 "
+                type="button" href= "{{ route('web-shop') }}">web </a>
                 {{-- <a href="#" class="sidebar-toggler flex-shrink-0">
                     <i class="fa fa-bars"></i>
                 </a> --}}
@@ -182,8 +184,8 @@
                                 style="width: 40px; height: 40px;">
                             <span class="d-none d-lg-inline-flex">Ghazanfar</span>
                         </a>
-                        <a class="btn border-secondary rounded-pill px-2 py-2 text-primary text-uppercase mb-2 ms-2"
-                        type="button" href= "{{ route('web-shop') }}">web </a>
+                        {{-- <a class="btn border-secondary rounded-pill px-2 py-2 text-primary text-uppercase mb-2 ms-2"
+                        type="button" href= "{{ route('web-shop') }}">web </a> --}}
                         {{-- <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
                             <a href="#" class="dropdown-item">My Profile</a>
                             <a href="#" class="dropdown-item">Settings</a>
